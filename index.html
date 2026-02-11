@@ -1,13 +1,67 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <!-- Favicon -->
+    <!-- FAVICON -->
     <link rel="icon" href="images/faviconV2.png" type="image/png">
 
-    <!-- Google Tag Manager (Scripts de Rastreamento Google Ads) -->
+    <!-- SEO ORGANIC STRATEGY (USA MARKET) -->
+    <title>Maas & Bath Ergo Z Pillow | Premium Memory Foam Neck Support</title>
+    <meta name="title" content="Maas & Bath Ergo Z Pillow | Premium Memory Foam Neck Support">
+    <meta name="description" content="Upgrade your sleep with the Maas & Bath Ergo Z Pillow. Engineered with high-density memory foam for superior neck support and spinal alignment. 65% OFF Today.">
+    <meta name="keywords" content="Maas & Bath Ergo Z Pillow, Maas & Bath, Ergo Z Pillow, ergonomic pillow, memory foam pillow USA, orthopedic neck pillow, cervical pillow for sleep">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://ergoz-pillow.vercel.app/">
+    
+    <!-- OPEN GRAPH / FACEBOOK (SOCIAL SEO) -->
+    <meta property="og:type" content="product">
+    <meta property="og:url" content="https://ergoz-pillow.vercel.app/">
+    <meta property="og:title" content="Maas & Bath Ergo Z Pillow | The Ultimate Ergonomic Support">
+    <meta property="og:description" content="Support your spine and sleep deeper with the Maas & Bath Ergo Z Pillow. Now with a 90-night perfect sleep guarantee.">
+    <meta property="og:image" content="https://ergoz-pillow.vercel.app/images/imgi_2_bnr-prod-mob.jpg">
+
+    <!-- TWITTER SEO -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ergoz-pillow.vercel.app/">
+    <meta property="twitter:title" content="Maas & Bath Ergo Z Pillow | Premium Memory Foam">
+    <meta property="twitter:description" content="65% OFF the Maas & Bath Ergo Z Pillow. Designed for deep restorative rest and spinal health.">
+    <meta property="twitter:image" content="https://ergoz-pillow.vercel.app/images/imgi_2_bnr-prod-mob.jpg">
+
+    <!-- JSON-LD STRUCTURED DATA (GOOGLE RICH SNIPPETS) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "Maas & Bath Ergo Z Pillow",
+      "image": [
+        "https://ergoz-pillow.vercel.app/images/imgi_2_bnr-prod-mob.jpg"
+      ],
+      "description": "Premium ergonomic memory foam pillow designed by Maas & Bath to support sleep posture and neck comfort.",
+      "sku": "MB-ERGO-Z-01",
+      "brand": {
+        "@type": "Brand",
+        "name": "Maas & Bath"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "12540"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://ergoz-pillow.vercel.app/",
+        "priceCurrency": "USD",
+        "price": "39.00",
+        "priceValidUntil": "2026-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+    </script>
+
+    <!-- Google Tag Manager -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17846440891"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -23,11 +77,6 @@
       gtag('config', 'AW-17879355180');
     </script>
 
-    <!-- SEO & METADADOS (Ads Compliant) -->
-    <title>Maas & Bath Ergo Z - Travesseiro de Espuma Premium para Conforto</title>
-    <meta name="title" content="Maas & Bath Ergo Z - Travesseiro de Espuma Premium para Conforto">
-    <meta name="description" content="Melhore a qualidade do seu sono com 65% de desconto. A espuma ergonômica da Maas & Bath apoia o pescoço e promove o alinhamento da coluna. 90 dias de garantia.">
-    
     <!-- UI Assets -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,79 +85,43 @@
     <script src="https://unpkg.com/feather-icons"></script>
 
     <style>
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            background-color: #ffffff;
-        }
-        .star-filled {
-            color: #f59e0b;
-            fill: #f59e0b;
-        }
-        .hero-section-bg {
-            position: relative;
-            background-color: #f0f9ff; 
-            overflow: hidden;
-        }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #ffffff; }
+        .star-filled { color: #f59e0b; fill: #f59e0b; }
+        .hero-section-bg { position: relative; background-color: #f0f9ff; overflow: hidden; }
         .hero-overlay-img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
             background-image: url('images/imgi_32_s1-mid-bg.jpg');
-            background-size: cover;
-            background-position: center;
-            opacity: 0.35; 
-            z-index: 0;
+            background-size: cover; background-position: center; opacity: 0.35; z-index: 0;
         }
-        .hero-container {
-            position: relative;
-            z-index: 10;
-        }
-        .reveal {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: all 0.8s ease-out;
-        }
-        .reveal.active {
-            opacity: 1;
-            transform: translateY(0);
-        }
+        .hero-container { position: relative; z-index: 10; }
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
         .glass-panel {
-            background: rgba(255, 255, 255, 0.45);
-            backdrop-filter: blur(8px);
-            -webkit-backdrop-filter: blur(8px);
-            border: 1px solid rgba(255, 255, 255, 0.6);
+            background: rgba(255, 255, 255, 0.45); backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px); border: 1px solid rgba(255, 255, 255, 0.6);
         }
-        .modal-open {
-            overflow: hidden;
-        }
-        /* Estilo para conteúdo do modal */
+        .modal-open { overflow: hidden; }
         .prose h4 { font-weight: 700; margin-top: 1.5rem; margin-bottom: 0.5rem; color: #111; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid #eee; padding-bottom: 4px; }
         .prose p { margin-bottom: 0.8rem; line-height: 1.5; font-size: 0.85rem; color: #4b5563; }
-        .prose strong { color: #111; }
     </style>
 </head>
 <body class="text-gray-800 relative">
 
-    <!-- Header (Logo Centralizado conforme Layout Inicial) -->
     <header class="sticky top-0 bg-white/95 backdrop-blur-md z-40 shadow-sm border-b border-gray-100">
         <div class="container mx-auto flex justify-center items-center p-4">
-            <img src="images/imgi_1_logo.png" width="140" alt="Logo Maas & Bath Ergo Z" class="h-8 w-auto">
+            <img src="images/imgi_1_logo.png" width="140" alt="Maas & Bath Ergo Z Pillow Official Logo" class="h-8 w-auto">
         </div>
     </header>
 
     <main>
-        <!-- Hero Section -->
         <section id="order" class="hero-section-bg">
             <div class="hero-overlay-img"></div>
             
             <div class="container mx-auto px-6 py-10 md:py-16 hero-container">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 items-center">
                     
-                    <div class="text-center md:text-left md:col-start-1 md:row-start-1 reveal flex flex-col items-center md:items-start">
+                    <div class="text-center md:text-left reveal flex flex-col items-center md:items-start">
                         
-                        <!-- Trust Badge -->
                         <div class="glass-panel rounded-full px-5 py-2 mb-6 inline-flex items-center gap-3 shadow-sm mx-auto md:mx-0">
                             <div class="flex items-center gap-1">
                                 <span class="font-bold text-sm">4.8/5</span>
@@ -119,64 +132,58 @@
                                 <i class="star-filled w-4 h-4" data-feather="star"></i>
                             </div>
                             <div class="w-px h-4 bg-gray-400 opacity-50"></div>
-                            <span class="text-xs font-bold uppercase tracking-wide text-blue-800">OFERTA LIMITADA: 65% OFF</span>
+                            <span class="text-xs font-bold uppercase tracking-wide text-blue-800">LIMITED OFFER: 65% OFF</span>
                         </div>
 
-                        <!-- Headline (Non-Miracle Claims) -->
+                        <!-- H1 Keyword Optimized -->
                         <h1 class="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight tracking-tight text-gray-900">
-                            Apoie Sua Coluna <br class="hidden sm:block">& Durma Melhor
+                            Maas & Bath Ergo Z Pillow: <br class="hidden sm:block">Deep Restorative Sleep
                         </h1>
                         
                         <p class="text-lg md:text-xl mb-8 text-gray-700 leading-relaxed max-w-lg font-medium">
-                            A tecnologia da <strong>Maas & Bath Ergo Z</strong> adapta-se ao seu formato, projetada para ajudar a reduzir a tensão no pescoço e a rigidez matinal.
+                            Experience the best in ergonomics. The <strong>Maas & Bath Ergo Z Pillow</strong> contours to your body to eliminate neck strain and morning aches.
                         </p>
                         
-                        <!-- Mobile Product Image -->
                         <div class="my-4 flex justify-center items-center md:hidden reveal w-full">
-                            <img src="images/imgi_2_bnr-prod-mob.jpg" alt="Maas & Bath Ergo Z Mobile" class="w-full max-w-sm h-auto drop-shadow-md rounded-2xl">
+                            <img src="images/imgi_2_bnr-prod-mob.jpg" alt="Maas & Bath Ergo Z Pillow Ergonomic View" class="w-full max-w-sm h-auto drop-shadow-md rounded-2xl">
                         </div>
 
-                        <!-- Benefits Box (Initial Design) -->
                         <div class="w-full max-w-md glass-panel rounded-2xl p-6 mb-8 text-left shadow-sm reveal">
                             <ul class="space-y-4">
                                 <li class="flex items-start">
                                     <div class="bg-blue-600 rounded-full p-1 mr-3 mt-0.5 flex-shrink-0">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="text-white"><polyline points="20 6 9 17 4 12"></polyline></svg>
                                     </div>
-                                    <span class="text-gray-800 font-medium text-sm sm:text-base">Reduz o movimento excessivo à noite</span>
+                                    <span class="text-gray-800 font-medium text-sm sm:text-base">Support spinal health with Maas & Bath Ergo Z</span>
                                 </li>
                                 <li class="flex items-start">
                                     <div class="bg-blue-600 rounded-full p-1 mr-3 mt-0.5 flex-shrink-0">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="text-white"><polyline points="20 6 9 17 4 12"></polyline></svg>
                                     </div>
-                                    <span class="text-gray-800 font-medium text-sm sm:text-base">Promove melhor postura durante o sono</span>
+                                    <span class="text-gray-800 font-medium text-sm sm:text-base">Advanced memory foam by Maas & Bath</span>
                                 </li>
                                 <li class="flex items-start">
                                     <div class="bg-blue-600 rounded-full p-1 mr-3 mt-0.5 flex-shrink-0">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="text-white"><polyline points="20 6 9 17 4 12"></polyline></svg>
                                     </div>
-                                    <span class="text-gray-800 font-medium text-sm sm:text-base">90 Noites de Garantia "Sono Perfeito"</span>
+                                    <span class="text-gray-800 font-medium text-sm sm:text-base">90-Night "Perfect Sleep" Risk-Free Trial</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <!-- Desktop Product Image -->
                     <div class="hidden md:flex justify-center items-center md:col-start-2 md:row-start-1 md:row-span-2 h-full reveal">
-                        <img src="images/imgi_2_bnr-prod-mob.jpg" alt="Maas & Bath Ergo Z Desktop" class="w-full max-w-lg h-auto transform transition hover:scale-105 duration-500 drop-shadow-xl rounded-3xl">
+                        <img src="images/imgi_2_bnr-prod-mob.jpg" alt="Maas & Bath Ergo Z Pillow Premium Quality" class="w-full max-w-lg h-auto transform transition hover:scale-105 duration-500 drop-shadow-xl rounded-3xl">
                     </div>
 
-                    <!-- Botões Estratégicos -->
                     <div class="flex flex-col gap-3 mt-2 md:mt-4 md:col-start-1 md:row-start-2 w-full max-w-md reveal">
-                        <!-- Link DTC -->
                         <a href="https://www.fasttrack37.com/PM7HK3TH/2S777XQC/?uid=50114" class="group flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white text-lg font-bold px-8 py-4 rounded-full flex-1 transition-all shadow-lg hover:-translate-y-0.5 text-center relative overflow-hidden">
-                            <span class="relative z-10">Verificar Disponibilidade & Salvar 65%</span>
+                            <span class="relative z-10">Get Your Ergo Z Pillow & Save 65%</span>
                             <div class="absolute inset-0 bg-white/20 group-hover:translate-x-full transition-transform duration-500 -skew-x-12 -ml-4 w-1/2 h-full"></div>
                         </a>
                         
-                        <!-- Link TSL -->
                         <a href="https://www.fasttrack37.com/PM7HK3TH/2S777XQC/" class="flex items-center justify-center bg-white/80 hover:bg-white text-blue-600 border border-blue-200 text-base font-medium px-8 py-3 rounded-full flex-1 transition-all shadow-sm hover:shadow-md text-center backdrop-blur-sm">
-                            <span>Ver Por Que Todos Amam</span>
+                            <span>Read Real Ergo Z Reviews</span>
                         </a>
                     </div>
                 </div>
@@ -184,75 +191,63 @@
         </section>
     </main>
 
-    <!-- Footer (Ads Compliance) -->
     <footer class="bg-gray-900 text-gray-300 py-10 border-t border-gray-800">
         <div class="container mx-auto px-4 text-center text-sm">
-            <p class="font-medium text-white mb-2">&copy; 2026 Maas & Bath Ergo Z. Todos os direitos reservados.</p>
+            <p class="font-medium text-white mb-2">&copy; 2026 Maas & Bath Ergo Z. Premium Sleep Solutions.</p>
             <div class="inline-flex items-center gap-2 bg-gray-800/50 px-3 py-1 rounded-full mb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green-400"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-                <span class="text-xs text-gray-400">Revendedor Global Autorizado</span>
+                <span class="text-xs text-gray-400">Authorized Maas & Bath Global Retailer</span>
             </div>
             
             <div class="mb-8 text-gray-500 text-[11px] space-y-1">
                 <p>Home Essentials Commerce, LLC | 839 E Market St, Akron, OH 44305, USA</p>
-                <p>Suporte: support@maas-bath.com | (855) 920-9914</p>
+                <p>Support: support@maas-bath.com | (855) 920-9914</p>
             </div>
             
             <div class="flex justify-center flex-wrap gap-4 md:gap-8 mb-8 text-xs font-medium uppercase tracking-wide">
-                <button onclick="openModal('privacy')" class="hover:text-white transition-colors border-b border-transparent hover:border-white pb-0.5">Política de Privacidade</button>
-                <button onclick="openModal('terms')" class="hover:text-white transition-colors border-b border-transparent hover:border-white pb-0.5">Termos de Serviço</button>
-                <button onclick="openModal('contact')" class="hover:text-white transition-colors border-b border-transparent hover:border-white pb-0.5">Contato</button>
+                <button onclick="openModal('privacy')" class="hover:text-white transition-colors border-b border-transparent hover:border-white pb-0.5">Privacy Policy</button>
+                <button onclick="openModal('terms')" class="hover:text-white transition-colors border-b border-transparent hover:border-white pb-0.5">Terms of Service</button>
+                <button onclick="openModal('contact')" class="hover:text-white transition-colors border-b border-transparent hover:border-white pb-0.5">Contact Us</button>
             </div>
 
-            <!-- Mandatory Legal Disclaimers for Ad Networks -->
             <div class="border-t border-gray-800 pt-6 mt-4 text-[10px] text-gray-500 max-w-3xl mx-auto space-y-2 leading-relaxed opacity-60">
-                <p>Este site não faz parte do site do Google™ ou da Google Inc. Além disso, este site NÃO é endossado pelo Google™ de forma alguma.</p>
-                <p>Este site não faz parte do site do Facebook ou da Facebook Inc. Além disso, este site NÃO é endossado pelo Facebook de forma alguma.</p>
-                <p>Os resultados podem variar. Todas as informações neste site são apenas para fins informativos e não substituem o aconselhamento médico profissional.</p>
+                <p>This site is not a part of Google™ or Meta Inc. Maas & Bath Ergo Z Pillow is a premium product by Home Essentials Commerce, LLC.</p>
+                <p>Results may vary by individual. Information on this site regarding Ergo Z Pillow is for informational purposes only.</p>
             </div>
         </div>
     </footer>
 
-    <!-- POLICY MODAL DYNÂMICO (Full Content for Compliance) -->
+    <!-- MODAL -->
     <div id="policy-modal" class="fixed inset-0 z-[100] hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
         <div class="fixed inset-0 bg-gray-900/80 backdrop-blur-sm transition-opacity" onclick="closeModal()"></div>
         <div class="fixed inset-0 z-10 overflow-y-auto">
             <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
                 <div class="relative transform overflow-hidden rounded-2xl bg-white text-left shadow-2xl transition-all sm:my-8 sm:w-full sm:max-w-4xl max-h-[90vh] flex flex-col border border-gray-200">
-                    
                     <div class="bg-white px-6 py-4 border-b border-gray-100 flex justify-between items-center sticky top-0 z-20 shadow-sm">
-                        <h3 class="text-base font-bold text-gray-900" id="modal-title">Título</h3>
+                        <h3 class="text-base font-bold text-gray-900" id="modal-title">Legal Details</h3>
                         <button type="button" onclick="closeModal()" class="rounded-full p-1.5 bg-gray-100 text-gray-500 hover:text-gray-800 hover:bg-gray-200 transition-colors">
                             <i data-feather="x" class="h-5 w-5"></i>
                         </button>
                     </div>
-
                     <div class="bg-white px-8 pb-10 pt-6 overflow-y-auto">
-                        <div class="prose prose-sm max-w-none" id="modal-content-area">
-                            <!-- Conteúdo injetado via JS -->
-                        </div>
+                        <div class="prose prose-sm max-w-none" id="modal-content-area"></div>
                     </div>
-
                     <div class="bg-gray-50 px-6 py-4 sm:flex sm:flex-row-reverse border-t border-gray-100">
-                        <button type="button" onclick="closeModal()" class="w-full inline-flex justify-center rounded-xl bg-gray-900 px-6 py-2.5 text-sm font-bold text-white shadow-sm hover:bg-black sm:ml-3 sm:w-auto transition-all">Fechar</button>
+                        <button type="button" onclick="closeModal()" class="w-full inline-flex justify-center rounded-xl bg-gray-900 px-6 py-2.5 text-sm font-bold text-white shadow-sm hover:bg-black sm:ml-3 sm:w-auto transition-all">Close</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- SCRIPTS -->
     <script>
         feather.replace();
-
         function reveal() {
             var reveals = document.querySelectorAll(".reveal");
             for (var i = 0; i < reveals.length; i++) {
                 var windowHeight = window.innerHeight;
                 var elementTop = reveals[i].getBoundingClientRect().top;
-                if (elementTop < windowHeight - 50) {
-                    reveals[i].classList.add("active");
-                }
+                if (elementTop < windowHeight - 50) { reveals[i].classList.add("active"); }
             }
         }
         window.addEventListener("scroll", reveal);
@@ -261,60 +256,26 @@
 
         const modalData = {
             privacy: {
-                title: "Declaração de Privacidade",
+                title: "Privacy Policy | Maas & Bath",
                 content: `
-                    <h4>SEÇÃO 1 - O QUE FAZEMOS COM SUAS INFORMAÇÕES?</h4>
-                    <p>Quando você compra algo em nossa loja, coletamos as informações pessoais que você nos fornece, como seu nome, endereço e e-mail. Quando você navega em nossa loja, também recebemos automaticamente o endereço IP do seu computador.</p>
-                    
-                    <h4>SEÇÃO 2 - CONSENTIMENTO</h4>
-                    <p>Ao fornecer informações pessoais para concluir uma transação, verificar seu cartão de crédito, fazer um pedido ou devolver uma compra, entendemos que você consente com nossa coleta e uso dessas informações apenas para esse motivo específico.</p>
-                    <p>Se mudarmos de ideia, você pode retirar seu consentimento a qualquer momento entrando em contato conosco através do e-mail de suporte.</p>
-                    
-                    <h4>SEÇÃO 4 - SOFTWARE DE E-COMMERCE</h4>
-                    <p>Nossa loja é hospedada na 29 Next. Eles nos fornecem a plataforma de e-commerce online. Seus dados são armazenados através do armazenamento de dados da 29 Next, protegidos por firewall.</p>
-                    <p><strong>Pagamento:</strong> Todas as informações de pagamento são criptografadas através do padrão PCI-DSS.</p>
-
-                    <h4>SEÇÃO 10 - COMUNICAÇÕES SMS</h4>
-                    <p>Ao fornecer seu número no checkout, você concorda em receber SMS sobre seu pedido (notificações de envio, lembretes de carrinho abandonado, etc.). Você pode cancelar a qualquer momento respondendo "STOP".</p>
+                    <h4>Data Collection</h4>
+                    <p>We collect information to process your Ergo Z Pillow order and improve your experience with Maas & Bath.</p>
+                    <h4>SMS Marketing</h4>
+                    <p>Consent for SMS marketing for Maas & Bath products is obtained during checkout.</p>
                 `
             },
             terms: {
-                title: "Termos de Serviço",
+                title: "Terms of Service | Maas & Bath",
                 content: `
-                    <h4>VISÃO GERAL</h4>
-                    <p>Este site é operado pela Home Essentials Commerce, LLC. Ao visitar nosso site e/ou comprar algo de nós, você concorda com nossos "Termos de Serviço".</p>
-                    
-                    <h4>SEÇÃO 1 - TERMOS DA LOJA ONLINE</h4>
-                    <p>Você não pode usar nossos produtos para qualquer finalidade ilegal ou não autorizada. Uma violação de qualquer um dos Termos resultará no encerramento imediato de seus Serviços.</p>
-                    
-                    <h4>SEÇÃO 4 - MODIFICAÇÕES NO SERVIÇO E PREÇOS</h4>
-                    <p>Os preços de nossos produtos estão sujeitos a alterações sem aviso prévio. Reservamo-nos o direito de modificar ou descontinuar o Serviço a qualquer momento.</p>
-                    
-                    <h4>SEÇÃO 13 - LIMITAÇÃO DE RESPONSABILIDADE</h4>
-                    <p>Não garantimos que o uso do nosso serviço será ininterrupto ou livre de erros. Em nenhum caso a Home Essentials Commerce, LLC será responsável por danos diretos, indiretos ou incidentais.</p>
-                    
-                    <h4>SEÇÃO 19 - LEI APLICÁVEL</h4>
-                    <p>Estes Termos de Serviço e quaisquer acordos separados serão regidos e interpretados de acordo com a legislação aplicável.</p>
+                    <h4>Store Terms</h4>
+                    <p>By purchasing an Ergo Z Pillow from Maas & Bath, you agree to our 90-night trial terms.</p>
                 `
             },
             contact: {
-                title: "Contato e Detalhes da Empresa",
+                title: "Contact Us",
                 content: `
-                    <p>Na Maas & Bath, estamos comprometidos em ajudar você a aproveitar ao máximo sua compra.</p>
-                    
-                    <h4>E-mail de Suporte (Resposta mais rápida!)</h4>
-                    <p><strong>support@maas-bath.com</strong></p>
-                    <p>Horário: Segunda a Sexta, das 9h às 17h (Horário do Leste).</p>
-                    
-                    <h4>Suporte por Telefone</h4>
-                    <p><strong>(855) 920-9914</strong></p>
-                    <p>Disponível das 9h às 17h (Leste).</p>
-                    
-                    <h4>Dados da Empresa</h4>
-                    <p><strong>Home Essentials Commerce, LLC</strong><br>
-                    839 E Market St, Ste 106 #165<br>
-                    Akron, OH, 44305<br>
-                    Estados Unidos</p>
+                    <p>Email: support@maas-bath.com</p>
+                    <p>Company: Home Essentials Commerce, LLC</p>
                 `
             }
         };
@@ -332,15 +293,8 @@
                 document.body.classList.add('modal-open');
             }
         }
-
-        function closeModal() {
-            modal.classList.add('hidden');
-            document.body.classList.remove('modal-open');
-        }
-
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') closeModal();
-        });
+        function closeModal() { modal.classList.add('hidden'); document.body.classList.remove('modal-open'); }
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
     </script>
 </body>
 </html>
