@@ -23,7 +23,7 @@
       gtag('config', 'AW-17879355180');
     </script>
 
-    <!-- SEO & METADADOS -->
+    <!-- SEO & METADADOS (Ads Compliant) -->
     <title>Maas & Bath Ergo Z - Travesseiro de Espuma Premium para Conforto</title>
     <meta name="title" content="Maas & Bath Ergo Z - Travesseiro de Espuma Premium para Conforto">
     <meta name="description" content="Melhore a qualidade do seu sono com 65% de desconto. A espuma ergonômica da Maas & Bath apoia o pescoço e promove o alinhamento da coluna. 90 dias de garantia.">
@@ -46,7 +46,7 @@
         }
         .hero-section-bg {
             position: relative;
-            background-color: #E6F4FC;
+            background-color: #f0f9ff; 
             overflow: hidden;
         }
         .hero-overlay-img {
@@ -55,11 +55,10 @@
             left: 0;
             width: 100%;
             height: 100%;
-            /* Ajustado para .jpg conforme lista */
             background-image: url('images/imgi_32_s1-mid-bg.jpg');
             background-size: cover;
             background-position: center;
-            opacity: 0.15;
+            opacity: 0.35; 
             z-index: 0;
         }
         .hero-container {
@@ -76,24 +75,25 @@
             transform: translateY(0);
         }
         .glass-panel {
-            background: rgba(255, 255, 255, 0.4);
+            background: rgba(255, 255, 255, 0.45);
             backdrop-filter: blur(8px);
             -webkit-backdrop-filter: blur(8px);
-            border: 1px solid rgba(255, 255, 255, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.6);
         }
         .modal-open {
             overflow: hidden;
         }
-        .prose h4 { font-weight: 700; margin-top: 1.5rem; margin-bottom: 0.5rem; color: #111; text-transform: uppercase; font-size: 0.875rem; }
-        .prose p { margin-bottom: 1rem; line-height: 1.6; }
+        /* Estilo para conteúdo do modal */
+        .prose h4 { font-weight: 700; margin-top: 1.5rem; margin-bottom: 0.5rem; color: #111; text-transform: uppercase; font-size: 0.85rem; border-bottom: 1px solid #eee; padding-bottom: 4px; }
+        .prose p { margin-bottom: 0.8rem; line-height: 1.5; font-size: 0.85rem; color: #4b5563; }
+        .prose strong { color: #111; }
     </style>
 </head>
 <body class="text-gray-800 relative">
 
-    <!-- Header -->
-    <header class="sticky top-0 bg-white/90 backdrop-blur-md z-40 shadow-sm border-b border-gray-100">
+    <!-- Header (Logo Centralizado conforme Layout Inicial) -->
+    <header class="sticky top-0 bg-white/95 backdrop-blur-md z-40 shadow-sm border-b border-gray-100">
         <div class="container mx-auto flex justify-center items-center p-4">
-            <!-- Logo permanece .png -->
             <img src="images/imgi_1_logo.png" width="140" alt="Logo Maas & Bath Ergo Z" class="h-8 w-auto">
         </div>
     </header>
@@ -108,6 +108,7 @@
                     
                     <div class="text-center md:text-left md:col-start-1 md:row-start-1 reveal flex flex-col items-center md:items-start">
                         
+                        <!-- Trust Badge -->
                         <div class="glass-panel rounded-full px-5 py-2 mb-6 inline-flex items-center gap-3 shadow-sm mx-auto md:mx-0">
                             <div class="flex items-center gap-1">
                                 <span class="font-bold text-sm">4.8/5</span>
@@ -118,9 +119,10 @@
                                 <i class="star-filled w-4 h-4" data-feather="star"></i>
                             </div>
                             <div class="w-px h-4 bg-gray-400 opacity-50"></div>
-                            <span class="text-xs font-bold uppercase tracking-wide text-blue-800">ÚLTIMA CHANCE: 65% OFF</span>
+                            <span class="text-xs font-bold uppercase tracking-wide text-blue-800">OFERTA LIMITADA: 65% OFF</span>
                         </div>
 
+                        <!-- Headline (Non-Miracle Claims) -->
                         <h1 class="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight tracking-tight text-gray-900">
                             Apoie Sua Coluna <br class="hidden sm:block">& Durma Melhor
                         </h1>
@@ -129,11 +131,12 @@
                             A tecnologia da <strong>Maas & Bath Ergo Z</strong> adapta-se ao seu formato, projetada para ajudar a reduzir a tensão no pescoço e a rigidez matinal.
                         </p>
                         
-                        <!-- Imagem Mobile - Ajustada para .jpg -->
+                        <!-- Mobile Product Image -->
                         <div class="my-4 flex justify-center items-center md:hidden reveal w-full">
-                            <img src="images/imgi_2_bnr-prod-mob.jpg" alt="Maas & Bath Ergo Z Mobile" class="w-full max-w-sm h-auto drop-shadow-md">
+                            <img src="images/imgi_2_bnr-prod-mob.jpg" alt="Maas & Bath Ergo Z Mobile" class="w-full max-w-sm h-auto drop-shadow-md rounded-2xl">
                         </div>
 
+                        <!-- Benefits Box (Initial Design) -->
                         <div class="w-full max-w-md glass-panel rounded-2xl p-6 mb-8 text-left shadow-sm reveal">
                             <ul class="space-y-4">
                                 <li class="flex items-start">
@@ -158,11 +161,12 @@
                         </div>
                     </div>
 
-                    <!-- Imagem Desktop - Ajustada para .jpg -->
+                    <!-- Desktop Product Image -->
                     <div class="hidden md:flex justify-center items-center md:col-start-2 md:row-start-1 md:row-span-2 h-full reveal">
-                        <img src="images/imgi_2_bnr-prod-mob.jpg" alt="Maas & Bath Ergo Z Desktop" class="w-full max-w-lg h-auto transform transition hover:scale-105 duration-500 drop-shadow-xl">
+                        <img src="images/imgi_2_bnr-prod-mob.jpg" alt="Maas & Bath Ergo Z Desktop" class="w-full max-w-lg h-auto transform transition hover:scale-105 duration-500 drop-shadow-xl rounded-3xl">
                     </div>
 
+                    <!-- Botões Estratégicos -->
                     <div class="flex flex-col gap-3 mt-2 md:mt-4 md:col-start-1 md:row-start-2 w-full max-w-md reveal">
                         <!-- Link DTC -->
                         <a href="https://www.fasttrack37.com/PM7HK3TH/2S777XQC/?uid=50114" class="group flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white text-lg font-bold px-8 py-4 rounded-full flex-1 transition-all shadow-lg hover:-translate-y-0.5 text-center relative overflow-hidden">
@@ -180,7 +184,7 @@
         </section>
     </main>
 
-    <!-- Footer -->
+    <!-- Footer (Ads Compliance) -->
     <footer class="bg-gray-900 text-gray-300 py-10 border-t border-gray-800">
         <div class="container mx-auto px-4 text-center text-sm">
             <p class="font-medium text-white mb-2">&copy; 2026 Maas & Bath Ergo Z. Todos os direitos reservados.</p>
@@ -189,7 +193,7 @@
                 <span class="text-xs text-gray-400">Revendedor Global Autorizado</span>
             </div>
             
-            <div class="mb-8 text-gray-500 text-xs space-y-1">
+            <div class="mb-8 text-gray-500 text-[11px] space-y-1">
                 <p>Home Essentials Commerce, LLC | 839 E Market St, Akron, OH 44305, USA</p>
                 <p>Suporte: support@maas-bath.com | (855) 920-9914</p>
             </div>
@@ -200,37 +204,44 @@
                 <button onclick="openModal('contact')" class="hover:text-white transition-colors border-b border-transparent hover:border-white pb-0.5">Contato</button>
             </div>
 
-            <div class="border-t border-gray-800 pt-6 mt-4 text-[11px] text-gray-500 max-w-3xl mx-auto space-y-2 leading-relaxed">
+            <!-- Mandatory Legal Disclaimers for Ad Networks -->
+            <div class="border-t border-gray-800 pt-6 mt-4 text-[10px] text-gray-500 max-w-3xl mx-auto space-y-2 leading-relaxed opacity-60">
                 <p>Este site não faz parte do site do Google™ ou da Google Inc. Além disso, este site NÃO é endossado pelo Google™ de forma alguma.</p>
                 <p>Este site não faz parte do site do Facebook ou da Facebook Inc. Além disso, este site NÃO é endossado pelo Facebook de forma alguma.</p>
-                <p>Os resultados podem variar. Todas as informações neste site são apenas para fins informativos e não substituem o aconselhamento médico.</p>
+                <p>Os resultados podem variar. Todas as informações neste site são apenas para fins informativos e não substituem o aconselhamento médico profissional.</p>
             </div>
         </div>
     </footer>
 
-    <!-- POLICY MODAL -->
-    <div id="policy-modal" class="fixed inset-0 z-50 hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
-        <div class="fixed inset-0 bg-gray-900/75 backdrop-blur-sm transition-opacity" onclick="closeModal()"></div>
+    <!-- POLICY MODAL DYNÂMICO (Full Content for Compliance) -->
+    <div id="policy-modal" class="fixed inset-0 z-[100] hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+        <div class="fixed inset-0 bg-gray-900/80 backdrop-blur-sm transition-opacity" onclick="closeModal()"></div>
         <div class="fixed inset-0 z-10 overflow-y-auto">
             <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
-                <div class="relative transform overflow-hidden rounded-xl bg-white text-left shadow-2xl transition-all sm:my-8 sm:w-full sm:max-w-4xl max-h-[90vh] flex flex-col border border-gray-200">
-                    <div class="bg-white px-4 py-4 sm:px-6 border-b border-gray-100 flex justify-between items-center sticky top-0 z-20 shadow-sm">
-                        <h3 class="text-lg font-bold leading-6 text-gray-900" id="modal-title">Título</h3>
-                        <button type="button" onclick="closeModal()" class="rounded-full p-1 bg-gray-100 text-gray-400 hover:text-gray-600 hover:bg-gray-200 focus:outline-none transition-colors">
+                <div class="relative transform overflow-hidden rounded-2xl bg-white text-left shadow-2xl transition-all sm:my-8 sm:w-full sm:max-w-4xl max-h-[90vh] flex flex-col border border-gray-200">
+                    
+                    <div class="bg-white px-6 py-4 border-b border-gray-100 flex justify-between items-center sticky top-0 z-20 shadow-sm">
+                        <h3 class="text-base font-bold text-gray-900" id="modal-title">Título</h3>
+                        <button type="button" onclick="closeModal()" class="rounded-full p-1.5 bg-gray-100 text-gray-500 hover:text-gray-800 hover:bg-gray-200 transition-colors">
                             <i data-feather="x" class="h-5 w-5"></i>
                         </button>
                     </div>
-                    <div class="bg-white px-6 pb-8 pt-6 overflow-y-auto">
-                        <div class="prose prose-sm max-w-none text-gray-600" id="modal-content-area"></div>
+
+                    <div class="bg-white px-8 pb-10 pt-6 overflow-y-auto">
+                        <div class="prose prose-sm max-w-none" id="modal-content-area">
+                            <!-- Conteúdo injetado via JS -->
+                        </div>
                     </div>
-                    <div class="bg-gray-50 px-4 py-4 sm:flex sm:flex-row-reverse sm:px-6 sticky bottom-0 z-20 border-t border-gray-100">
-                        <button type="button" onclick="closeModal()" class="w-full inline-flex justify-center rounded-lg border border-transparent bg-gray-900 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-gray-800 sm:ml-3 sm:w-auto sm:text-sm transition-all">Fechar</button>
+
+                    <div class="bg-gray-50 px-6 py-4 sm:flex sm:flex-row-reverse border-t border-gray-100">
+                        <button type="button" onclick="closeModal()" class="w-full inline-flex justify-center rounded-xl bg-gray-900 px-6 py-2.5 text-sm font-bold text-white shadow-sm hover:bg-black sm:ml-3 sm:w-auto transition-all">Fechar</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- SCRIPTS -->
     <script>
         feather.replace();
 
@@ -253,31 +264,57 @@
                 title: "Declaração de Privacidade",
                 content: `
                     <h4>SEÇÃO 1 - O QUE FAZEMOS COM SUAS INFORMAÇÕES?</h4>
-                    <p>Quando você compra algo em nossa loja, coletamos informações como seu nome, endereço e e-mail.</p>
-                    <p>Marketing por e-mail: Com sua permissão, podemos enviar novidades sobre nossa loja.</p>
+                    <p>Quando você compra algo em nossa loja, coletamos as informações pessoais que você nos fornece, como seu nome, endereço e e-mail. Quando você navega em nossa loja, também recebemos automaticamente o endereço IP do seu computador.</p>
+                    
                     <h4>SEÇÃO 2 - CONSENTIMENTO</h4>
-                    <p>Ao fornecer dados para concluir uma transação, entendemos que você consente com a coleta para esse fim específico.</p>
+                    <p>Ao fornecer informações pessoais para concluir uma transação, verificar seu cartão de crédito, fazer um pedido ou devolver uma compra, entendemos que você consente com nossa coleta e uso dessas informações apenas para esse motivo específico.</p>
+                    <p>Se mudarmos de ideia, você pode retirar seu consentimento a qualquer momento entrando em contato conosco através do e-mail de suporte.</p>
+                    
                     <h4>SEÇÃO 4 - SOFTWARE DE E-COMMERCE</h4>
-                    <p>Nossa loja é hospedada na 29 Next. Seus dados são armazenados em servidores seguros.</p>
+                    <p>Nossa loja é hospedada na 29 Next. Eles nos fornecem a plataforma de e-commerce online. Seus dados são armazenados através do armazenamento de dados da 29 Next, protegidos por firewall.</p>
+                    <p><strong>Pagamento:</strong> Todas as informações de pagamento são criptografadas através do padrão PCI-DSS.</p>
+
+                    <h4>SEÇÃO 10 - COMUNICAÇÕES SMS</h4>
+                    <p>Ao fornecer seu número no checkout, você concorda em receber SMS sobre seu pedido (notificações de envio, lembretes de carrinho abandonado, etc.). Você pode cancelar a qualquer momento respondendo "STOP".</p>
                 `
             },
             terms: {
                 title: "Termos de Serviço",
                 content: `
                     <h4>VISÃO GERAL</h4>
-                    <p>Este site é operado pela Home Essentials Commerce, LLC. Ao utilizar nosso serviço, você concorda com estes termos.</p>
-                    <h4>SEÇÃO 1 - TERMOS DA LOJA</h4>
-                    <p>Você não pode usar nossos produtos para fins ilegais.</p>
+                    <p>Este site é operado pela Home Essentials Commerce, LLC. Ao visitar nosso site e/ou comprar algo de nós, você concorda com nossos "Termos de Serviço".</p>
+                    
+                    <h4>SEÇÃO 1 - TERMOS DA LOJA ONLINE</h4>
+                    <p>Você não pode usar nossos produtos para qualquer finalidade ilegal ou não autorizada. Uma violação de qualquer um dos Termos resultará no encerramento imediato de seus Serviços.</p>
+                    
+                    <h4>SEÇÃO 4 - MODIFICAÇÕES NO SERVIÇO E PREÇOS</h4>
+                    <p>Os preços de nossos produtos estão sujeitos a alterações sem aviso prévio. Reservamo-nos o direito de modificar ou descontinuar o Serviço a qualquer momento.</p>
+                    
                     <h4>SEÇÃO 13 - LIMITAÇÃO DE RESPONSABILIDADE</h4>
-                    <p>Não garantimos que o uso do serviço será ininterrupto. A responsabilidade da empresa é limitada ao máximo permitido por lei.</p>
+                    <p>Não garantimos que o uso do nosso serviço será ininterrupto ou livre de erros. Em nenhum caso a Home Essentials Commerce, LLC será responsável por danos diretos, indiretos ou incidentais.</p>
+                    
+                    <h4>SEÇÃO 19 - LEI APLICÁVEL</h4>
+                    <p>Estes Termos de Serviço e quaisquer acordos separados serão regidos e interpretados de acordo com a legislação aplicável.</p>
                 `
             },
             contact: {
-                title: "Contato",
+                title: "Contato e Detalhes da Empresa",
                 content: `
-                    <p><strong>E-mail:</strong> support@maas-bath.com</p>
-                    <p><strong>Telefone:</strong> (855) 920-9914</p>
-                    <p><strong>Endereço:</strong> Home Essentials Commerce, LLC, 839 E Market St, Akron, OH, 44305, USA</p>
+                    <p>Na Maas & Bath, estamos comprometidos em ajudar você a aproveitar ao máximo sua compra.</p>
+                    
+                    <h4>E-mail de Suporte (Resposta mais rápida!)</h4>
+                    <p><strong>support@maas-bath.com</strong></p>
+                    <p>Horário: Segunda a Sexta, das 9h às 17h (Horário do Leste).</p>
+                    
+                    <h4>Suporte por Telefone</h4>
+                    <p><strong>(855) 920-9914</strong></p>
+                    <p>Disponível das 9h às 17h (Leste).</p>
+                    
+                    <h4>Dados da Empresa</h4>
+                    <p><strong>Home Essentials Commerce, LLC</strong><br>
+                    839 E Market St, Ste 106 #165<br>
+                    Akron, OH, 44305<br>
+                    Estados Unidos</p>
                 `
             }
         };
@@ -300,6 +337,10 @@
             modal.classList.add('hidden');
             document.body.classList.remove('modal-open');
         }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
     </script>
 </body>
 </html>
