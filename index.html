@@ -24,7 +24,7 @@
     </script>
 
     <!-- SEO & METADADOS -->
-    <title data-translate="meta_title">Maas & Bath Ergo Z - Travesseiro de Espuma Premium para Conforto</title>
+    <title>Maas & Bath Ergo Z - Travesseiro de Espuma Premium para Conforto</title>
     <meta name="title" content="Maas & Bath Ergo Z - Travesseiro de Espuma Premium para Conforto">
     <meta name="description" content="Melhore a qualidade do seu sono. A espuma viscoelástica ergonômica da Maas & Bath ajuda a apoiar o pescoço e promove o alinhamento da coluna. 70% OFF.">
     
@@ -44,11 +44,6 @@
             color: #f59e0b;
             fill: #f59e0b;
         }
-        /* Cor de detalhe solicitada */
-        .detail-bg {
-            background-color: #E6F4FC;
-        }
-        /* Fundo do Hero com imagem e transparência */
         .hero-section-bg {
             position: relative;
             background-color: #E6F4FC;
@@ -63,7 +58,7 @@
             background-image: url('images/imgi_32_s1-mid-bg.png');
             background-size: cover;
             background-position: center;
-            opacity: 0.15; /* Leve transparência */
+            opacity: 0.15;
             z-index: 0;
         }
         .hero-container {
@@ -88,11 +83,14 @@
         .modal-open {
             overflow: hidden;
         }
+        /* Estilo para conteúdo do modal */
+        .prose h4 { font-weight: 700; margin-top: 1.5rem; margin-bottom: 0.5rem; color: #111; text-transform: uppercase; font-size: 0.875rem; }
+        .prose p { margin-bottom: 1rem; line-height: 1.6; }
     </style>
 </head>
 <body class="text-gray-800 relative">
 
-    <!-- Header (Layout Inicial: Logo Centralizado) -->
+    <!-- Header -->
     <header class="sticky top-0 bg-white/90 backdrop-blur-md z-40 shadow-sm border-b border-gray-100">
         <div class="container mx-auto flex justify-center items-center p-4">
             <img src="images/imgi_1_logo.png" width="140" alt="Logo Maas & Bath Ergo Z" class="h-8 w-auto">
@@ -100,17 +98,15 @@
     </header>
 
     <main>
-        <!-- Hero Section (Estrutura Inicial) -->
+        <!-- Hero Section -->
         <section id="order" class="hero-section-bg">
             <div class="hero-overlay-img"></div>
             
             <div class="container mx-auto px-6 py-10 md:py-16 hero-container">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 items-center">
                     
-                    <!-- Conteúdo de Texto (COLUNA ESQUERDA) -->
                     <div class="text-center md:text-left md:col-start-1 md:row-start-1 reveal flex flex-col items-center md:items-start">
                         
-                        <!-- Badge Profissional -->
                         <div class="glass-panel rounded-full px-5 py-2 mb-6 inline-flex items-center gap-3 shadow-sm mx-auto md:mx-0">
                             <div class="flex items-center gap-1">
                                 <span class="font-bold text-sm">4.8/5</span>
@@ -124,22 +120,18 @@
                             <span class="text-xs font-bold uppercase tracking-wide text-blue-800">ÚLTIMA CHANCE: 70% OFF</span>
                         </div>
 
-                        <!-- Título (Maas & Bath Ergo Z) -->
-                        <h1 class="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight tracking-tight text-gray-900" data-translate="hero_title">
+                        <h1 class="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight tracking-tight text-gray-900">
                             Apoie Sua Coluna <br class="hidden sm:block">& Durma Melhor
                         </h1>
                         
-                        <!-- Descrição -->
-                        <p class="text-lg md:text-xl mb-8 text-gray-700 leading-relaxed max-w-lg font-medium" data-translate="hero_desc">
+                        <p class="text-lg md:text-xl mb-8 text-gray-700 leading-relaxed max-w-lg font-medium">
                             A tecnologia da <strong>Maas & Bath Ergo Z</strong> adapta-se ao seu formato, projetada para ajudar a reduzir a tensão no pescoço e a rigidez matinal.
                         </p>
                         
-                        <!-- Imagem Mobile (Apenas Mobile) -->
                         <div class="my-4 flex justify-center items-center md:hidden reveal w-full">
-                            <img src="images/imgi_2_bnr-prod-mob.png" alt="Maas & Bath Ergo Z" class="w-full max-w-sm h-auto drop-shadow-md">
+                            <img src="images/imgi_2_bnr-prod-mob.png" alt="Maas & Bath Ergo Z Mobile" class="w-full max-w-sm h-auto drop-shadow-md">
                         </div>
 
-                        <!-- Box de Benefícios (Design Inicial) -->
                         <div class="w-full max-w-md glass-panel rounded-2xl p-6 mb-8 text-left shadow-sm reveal">
                             <ul class="space-y-4">
                                 <li class="flex items-start">
@@ -164,21 +156,19 @@
                         </div>
                     </div>
 
-                    <!-- Imagem Desktop (COLUNA DIREITA) -->
                     <div class="hidden md:flex justify-center items-center md:col-start-2 md:row-start-1 md:row-span-2 h-full reveal">
                         <img src="images/imgi_2_bnr-prod-mob.png" alt="Maas & Bath Ergo Z Desktop" class="w-full max-w-lg h-auto transform transition hover:scale-105 duration-500 drop-shadow-xl">
                     </div>
 
-                    <!-- Botões Estratégicos -->
                     <div class="flex flex-col gap-3 mt-2 md:mt-4 md:col-start-1 md:row-start-2 w-full max-w-md reveal">
-                        <!-- LINK DTC PARA COMPRA -->
+                        <!-- Link DTC -->
                         <a href="https://www.fasttrack37.com/PM7HK3TH/2S777XQC/?uid=50114" class="group flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white text-lg font-bold px-8 py-4 rounded-full flex-1 transition-all shadow-lg hover:-translate-y-0.5 text-center relative overflow-hidden">
                             <span class="relative z-10">Verificar Disponibilidade & Salvar 70%</span>
                             <div class="absolute inset-0 bg-white/20 group-hover:translate-x-full transition-transform duration-500 -skew-x-12 -ml-4 w-1/2 h-full"></div>
                         </a>
                         
-                        <!-- LINK REVIEW PARA PROVA SOCIAL -->
-                        <a href="https://www.fasttrack37.com/PM7HK3TH/2S777XQC/?uid=50115" class="flex items-center justify-center bg-white/80 hover:bg-white text-blue-600 border border-blue-200 text-base font-medium px-8 py-3 rounded-full flex-1 transition-all shadow-sm hover:shadow-md text-center backdrop-blur-sm">
+                        <!-- Link TSL -->
+                        <a href="https://www.fasttrack37.com/PM7HK3TH/2S777XQC/" class="flex items-center justify-center bg-white/80 hover:bg-white text-blue-600 border border-blue-200 text-base font-medium px-8 py-3 rounded-full flex-1 transition-all shadow-sm hover:shadow-md text-center backdrop-blur-sm">
                             <span>Ver Por Que Todos Amam</span>
                         </a>
                     </div>
@@ -187,7 +177,7 @@
         </section>
     </main>
 
-    <!-- Footer (Layout Inicial) -->
+    <!-- Footer -->
     <footer class="bg-gray-900 text-gray-300 py-10 border-t border-gray-800">
         <div class="container mx-auto px-4 text-center text-sm">
             <p class="font-medium text-white mb-2">&copy; 2026 Maas & Bath Ergo Z. Todos os direitos reservados.</p>
@@ -197,18 +187,17 @@
             </div>
             
             <div class="mb-8 text-gray-500 text-xs space-y-1">
-                <p>Maas & Bath | Gedimino St. 45-7, LT-44248, Kaunas, Lithuania</p>
-                <p>Suporte: support@maas-bath.com | +14046788537</p>
+                <p>Home Essentials Commerce, LLC | 839 E Market St, Akron, OH 44305, USA</p>
+                <p>Suporte: support@maas-bath.com | (855) 920-9914</p>
             </div>
             
-            <!-- Botões que abrem o Modal -->
+            <!-- Botões que abrem o Modal com conteúdo específico -->
             <div class="flex justify-center flex-wrap gap-4 md:gap-8 mb-8 text-xs font-medium uppercase tracking-wide">
-                <button onclick="openModal()" class="hover:text-white transition-colors border-b border-transparent hover:border-white pb-0.5">Política de Privacidade</button>
-                <button onclick="openModal()" class="hover:text-white transition-colors border-b border-transparent hover:border-white pb-0.5">Termos de Serviço</button>
-                <button onclick="openModal()" class="hover:text-white transition-colors border-b border-transparent hover:border-white pb-0.5">Contato</button>
+                <button onclick="openModal('privacy')" class="hover:text-white transition-colors border-b border-transparent hover:border-white pb-0.5">Política de Privacidade</button>
+                <button onclick="openModal('terms')" class="hover:text-white transition-colors border-b border-transparent hover:border-white pb-0.5">Termos de Serviço</button>
+                <button onclick="openModal('contact')" class="hover:text-white transition-colors border-b border-transparent hover:border-white pb-0.5">Contato</button>
             </div>
 
-            <!-- Disclaimers Obrigatórios -->
             <div class="border-t border-gray-800 pt-6 mt-4 text-[11px] text-gray-500 max-w-3xl mx-auto space-y-2 leading-relaxed">
                 <p>Este site não faz parte do site do Google™ ou da Google Inc. Além disso, este site NÃO é endossado pelo Google™ de forma alguma.</p>
                 <p>Este site não faz parte do site do Facebook ou da Facebook Inc. Além disso, este site NÃO é endossado pelo Facebook de forma alguma.</p>
@@ -217,7 +206,7 @@
         </div>
     </footer>
 
-    <!-- POLICY MODAL (Layout Inicial) -->
+    <!-- POLICY MODAL DYNÂMICO -->
     <div id="policy-modal" class="fixed inset-0 z-50 hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
         <div class="fixed inset-0 bg-gray-900/75 backdrop-blur-sm transition-opacity" onclick="closeModal()"></div>
         <div class="fixed inset-0 z-10 overflow-y-auto">
@@ -225,18 +214,15 @@
                 <div class="relative transform overflow-hidden rounded-xl bg-white text-left shadow-2xl transition-all sm:my-8 sm:w-full sm:max-w-4xl max-h-[90vh] flex flex-col border border-gray-200">
                     
                     <div class="bg-white px-4 py-4 sm:px-6 border-b border-gray-100 flex justify-between items-center sticky top-0 z-20 shadow-sm">
-                        <h3 class="text-lg font-bold leading-6 text-gray-900" id="modal-title">Informação Legal</h3>
+                        <h3 class="text-lg font-bold leading-6 text-gray-900" id="modal-title">Título do Modal</h3>
                         <button type="button" onclick="closeModal()" class="rounded-full p-1 bg-gray-100 text-gray-400 hover:text-gray-600 hover:bg-gray-200 focus:outline-none transition-colors">
                             <i data-feather="x" class="h-5 w-5"></i>
                         </button>
                     </div>
 
-                    <div class="bg-white px-6 pb-8 pt-6 overflow-y-auto">
-                        <div class="prose prose-sm max-w-none text-gray-600">
-                            <h2 class="text-xl font-bold text-gray-900 mb-4 pb-2 border-b">Termos de Serviço</h2>
-                            <p class="mb-4">Ao usar este site, você concorda com nossos termos de garantia de satisfação de 60 noites para o Maas & Bath Ergo Z.</p>
-                            <h3 class="font-bold text-gray-900 mt-6 mb-2">Privacidade</h3>
-                            <p>Seus dados são processados de forma segura seguindo as normas globais de proteção ao consumidor.</p>
+                    <div class="bg-white px-6 pb-8 pt-6 overflow-y-auto" id="modal-body-container">
+                        <div class="prose prose-sm max-w-none text-gray-600" id="modal-content-area">
+                            <!-- Conteúdo injetado via JS -->
                         </div>
                     </div>
 
@@ -252,14 +238,13 @@
     <script>
         feather.replace();
 
-        // Animação Reveal ao scroll
+        // Reveal Animations
         function reveal() {
             var reveals = document.querySelectorAll(".reveal");
             for (var i = 0; i < reveals.length; i++) {
                 var windowHeight = window.innerHeight;
                 var elementTop = reveals[i].getBoundingClientRect().top;
-                var elementVisible = 50; 
-                if (elementTop < windowHeight - elementVisible) {
+                if (elementTop < windowHeight - 50) {
                     reveals[i].classList.add("active");
                 }
             }
@@ -268,16 +253,123 @@
         window.addEventListener("load", reveal);
         reveal();
 
-        // Funções do Modal
+        // Dados do Modal
+        const modalData = {
+            privacy: {
+                title: "Declaração de Privacidade",
+                content: `
+                    <h4>SEÇÃO 1 - O QUE FAZEMOS COM SUAS INFORMAÇÕES?</h4>
+                    <p>Quando você compra algo em nossa loja, como parte do processo de compra e venda, coletamos as informações pessoais que você nos fornece, como seu nome, endereço e endereço de e-mail.</p>
+                    <p>Quando você navega em nossa loja, também recebemos automaticamente o endereço IP do seu computador para nos fornecer informações que nos ajudam a aprender sobre seu navegador e sistema operacional.</p>
+                    <p>Marketing por e-mail (se aplicável): Com sua permissão, podemos enviar-lhe e-mails sobre nossa loja, novos produtos e outras atualizações.</p>
+                    
+                    <h4>SEÇÃO 2 - CONSENTIMENTO</h4>
+                    <p>Como vocês obtêm meu consentimento?</p>
+                    <p>Quando você nos fornece informações pessoais para concluir uma transação, verificar seu cartão de crédito, fazer um pedido, organizar uma entrega ou devolver uma compra, entendemos que você consente com nossa coleta e uso dessas informações apenas para esse motivo específico.</p>
+                    <p>Se solicitarmos suas informações pessoais por um motivo secundário, como marketing, solicitaremos diretamente seu consentimento expresso ou forneceremos a oportunidade de dizer não.</p>
+                    
+                    <h4>SEÇÃO 3 - DIVULGAÇÃO</h4>
+                    <p>Podemos divulgar suas informações pessoais se formos obrigados por lei a fazê-lo ou se você violar nossos Termos de Serviço.</p>
+                    
+                    <h4>SEÇÃO 4 - SOFTWARE DE E-COMMERCE</h4>
+                    <p>Nossa loja é hospedada na 29 Next. Eles nos fornecem a plataforma de e-commerce online que nos permite vender nossos produtos e serviços para você. Seus dados são armazenados através do armazenamento de dados, bancos de dados e do aplicativo geral da 29 Next. Eles armazenam seus dados em um servidor seguro atrás de um firewall.</p>
+                    <p><strong>Pagamento:</strong> Se você escolher um gateway de pagamento direto para concluir sua compra, suas informações de pagamento serão sempre criptografadas através do Padrão de Segurança de Dados da Indústria de Cartões de Pagamento (PCI-DSS).</p>
+                    
+                    <h4>SEÇÃO 5 - SERVIÇOS DE TERCEIROS</h4>
+                    <p>Em geral, os fornecedores terceirizados usados por nós apenas coletarão, usarão e divulgarão suas informações na medida necessária para permitir que realizem os serviços que nos prestam.</p>
+                    <p>No entanto, certos prestadores de serviços terceirizados, como gateways de pagamento e outros processadores de transações de pagamento, têm suas próprias políticas de privacidade em relação às informações que somos obrigados a fornecer a eles para suas transações relacionadas à compra.</p>
+                    
+                    <h4>SEÇÃO 6 - SEGURANÇA</h4>
+                    <p>Para proteger suas informações pessoais, tomamos precauções razoáveis e seguimos as melhores práticas do setor para garantir que não sejam perdidas, mal utilizadas, acessadas, divulgadas, alteradas ou destruídas de forma inadequada.</p>
+                    
+                    <h4>SEÇÃO 7 - COOKIES</h4>
+                    <p>Os cookies permitem que a 29 Next armazene informações sobre sua sessão (referenciador, página de destino, etc).</p>
+                    
+                    <h4>SEÇÃO 8 - IDADE DE CONSENTIMENTO</h4>
+                    <p>Ao usar este site, você declara que tem pelo menos a idade de maioridade em seu estado ou província de residência.</p>
+                    
+                    <h4>SEÇÃO 9 - ALTERAÇÕES A ESTA POLÍTICA DE PRIVACIDADE</h4>
+                    <p>Reservamo-nos o direito de modificar esta política de privacidade a qualquer momento, portanto, revise-a com frequência.</p>
+
+                    <h4>SEÇÃO 10 - COMUNICAÇÕES SMS</h4>
+                    <p>Ao fornecer seu número de telefone celular no checkout, você concorda que podemos enviar mensagens de texto (SMS) relacionadas ao seu pedido ou transações.</p>
+                `
+            },
+            terms: {
+                title: "Termos de Serviço",
+                content: `
+                    <h4>VISÃO GERAL</h4>
+                    <p>Este site é operado pela Home Essentials Commerce, LLC. Em todo o site, os termos “nós”, “nos” e “nosso” referem-se à Home Essentials Commerce, LLC. </p>
+                    <p>Ao visitar nosso site e/ou comprar algo de nós, você se envolve em nosso “Serviço” e concorda em cumprir os seguintes termos e condições.</p>
+                    
+                    <h4>SEÇÃO 1 - TERMOS DA LOJA ONLINE</h4>
+                    <p>Você não pode usar nossos produtos para qualquer finalidade ilegal ou não autorizada, nem pode, no uso do Serviço, violar quaisquer leis em sua jurisdição.</p>
+                    
+                    <h4>SEÇÃO 2 - CONDIÇÕES GERAIS</h4>
+                    <p>Reservamo-nos o direito de recusar o serviço a qualquer pessoa por qualquer motivo a qualquer momento. Você concorda em não reproduzir, duplicar, copiar, vender, revender ou explorar qualquer parte do Serviço sem permissão expressa por escrito.</p>
+                    
+                    <h4>SEÇÃO 3 - PRECISÃO E COMPLETUDE</h4>
+                    <p>Não somos responsáveis se as informações disponibilizadas neste site não forem precisas, completas ou atuais. O material neste site é fornecido apenas para informação geral.</p>
+                    
+                    <h4>SEÇÃO 4 - MODIFICAÇÕES NO SERVIÇO E PREÇOS</h4>
+                    <p>Os preços dos nossos produtos estão sujeitos a alterações sem aviso prévio.</p>
+                    
+                    <h4>SEÇÃO 5 - PRODUTOS OU SERVIÇOS</h4>
+                    <p>Certos produtos ou serviços podem estar disponíveis exclusivamente online através do site. Esses produtos ou serviços podem ter quantidades limitadas e estão sujeitos a devolução ou troca apenas de acordo com nossa Política de Devolução.</p>
+                    
+                    <h4>SEÇÃO 13 - ISENÇÃO DE GARANTIAS; LIMITAÇÃO DE RESPONSABILIDADE</h4>
+                    <p>Não garantimos que o uso do nosso serviço será ininterrupto, oportuno, seguro ou livre de erros. Em nenhum caso a Home Essentials Commerce, LLC será responsável por qualquer dano direto, indireto, incidental ou punitivo decorrente do uso do serviço.</p>
+                    
+                    <h4>SEÇÃO 19 - LEI APLICÁVEL</h4>
+                    <p>Estes Termos de Serviço e quaisquer acordos separados pelos quais lhe prestamos Serviços serão regidos e interpretados de acordo com a lei.</p>
+                `
+            },
+            contact: {
+                title: "Entre em Contato Conosco",
+                content: `
+                    <p>Na Maas & Bath, estamos comprometidos em fornecer excelentes experiências aos clientes e ajudá-lo a aproveitar ao máximo sua compra.</p>
+                    
+                    <h4>Fale Conosco por E-mail (Tempo de resposta mais rápido!)</h4>
+                    <p><strong>E-mail de Suporte:</strong> support@maas-bath.com</p>
+                    <p>Nosso objetivo é responder dentro de 24 horas durante nosso horário de trabalho de segunda a sexta-feira, das 9:00 às 17:00 (Leste).</p>
+                    
+                    <h4>Fale Conosco por Telefone</h4>
+                    <p><strong>Suporte ao Cliente (EUA):</strong> (855) 920-9914</p>
+                    <p>Horário: 9:00 - 17:00 (Leste)</p>
+                    
+                    <h4>Detalhes da Empresa</h4>
+                    <p><strong>Home Essentials Commerce, LLC</strong><br>
+                    839 E Market St<br>
+                    Ste 106 #165<br>
+                    Akron, OH, 44305<br>
+                    Estados Unidos</p>
+                `
+            }
+        };
+
         const modal = document.getElementById('policy-modal');
-        function openModal() {
-            modal.classList.remove('hidden');
-            document.body.classList.add('modal-open');
+        const modalTitle = document.getElementById('modal-title');
+        const modalContent = document.getElementById('modal-content-area');
+
+        function openModal(type) {
+            const data = modalData[type];
+            if (data) {
+                modalTitle.innerText = data.title;
+                modalContent.innerHTML = data.content;
+                modal.classList.remove('hidden');
+                document.body.classList.add('modal-open');
+            }
         }
+
         function closeModal() {
             modal.classList.add('hidden');
             document.body.classList.remove('modal-open');
         }
+
+        // Fechar com ESC
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
     </script>
 </body>
 </html>
